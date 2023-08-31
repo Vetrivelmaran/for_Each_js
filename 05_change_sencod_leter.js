@@ -1,0 +1,11 @@
+a='vetru'
+modify=''
+for(i=0;i<a.length;i++){
+    if(i%2==1){
+        modify+='Z'
+    }
+    else{
+        modify+=a[i]
+    }
+}
+console.log(modify)

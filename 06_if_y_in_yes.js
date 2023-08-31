@@ -1,0 +1,11 @@
+a='hiyello'
+for(i=0;i<a.length;i++){
+    if(i=='y'){
+        console.log('yes')
+        break
+    }
+    else{
+        console.log('not')
+        break
+    }
+}
