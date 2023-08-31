@@ -3,5 +3,7 @@
 // accomplish this.
 let a=[{name:'vetri',age:23},{name:'david',age:34}]
 let r=a.map(e=>{
-    a[0]=a[0].upp
-})
+    return e.name.charAt(0).toUpperCase()+e.name.slice(1);
+    
+});
+console.log(r)
